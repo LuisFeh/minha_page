@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    justify-content: center;
+}
+
+body{
+    background-color:rgb(25, 20, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton", sans-serif;;
+}
+
+img{
+    width: 380px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 20px auto;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0;
+    color: rgb(214, 214, 214);
+    font-size: 25px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 38, 59);
+    margin: 15px;
+    height: 70px;
+    width: 450px;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    border-radius: 6px;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.link a:hover{
+    background-color:rgb(49, 43, 71) ;
+    border: 1px solid rgb(126, 107, 192);
+}
+
+.link img{
+    width: 40px;
+    margin: 10px;
+    align-items: center;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color:rgb(49, 43, 71) ;
+    border: 1px solid rgb(126, 107, 192);
+    transition: 0.3s;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(214, 214, 214);
+    margin: 50px auto 15px auto;
+}
+
+textarea{
+    width: 450px;
+    height: 70px;
+    border-radius: 5px;
+    margin:10px;
+    resize: none;
+    background-color:rgb(55, 47, 82) ;
+}
+
+button{
+    height: 30px;
+    width: 110px;
+    background-color:rgba(214, 214, 214, 0.548);
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color:rgb(49, 43, 71) ;
+    border: 1px solid rgb(126, 107, 192);
+    transition: 0.2s;
+    color: white;
+}
